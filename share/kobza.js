@@ -466,7 +466,7 @@ Vue.component('field', {
       let subtitle = `(ось як мені вдалось відгадати "${Wotd.word}")\n\n`
       subtitle = ''
       let text = ''
-      let url = 'kobzaapp.github.io'
+      let url = 'kobzaapp2.github.io'
       let blackSq = '\u2B1B' // ⬛
       let yellowSq = '\uD83D\uDFE8' //🟨
       let greenSq = '\uD83D\uDFE9' //🟩
@@ -822,11 +822,11 @@ Vue.component('wotdError', {
 
     <div v-if="isSixError">
       <!-- Content for isSixError true -->
-      <p>cхоже, вам спробували загадати слово з шести букв, таке можна відгадати тільки в <a href="https://kobzaapp.github.io" class="white">мобільному застосунку</a></p>
+      <p>cхоже, вам спробували загадати слово з шести букв, таке можна відгадати тільки в <a href="https://kobzaapp2.github.io" class="white">мобільному застосунку</a></p>
     </div>
 
     <div v-else>
-      <p>спробуйте встановити <a href="https://kobzaapp.github.io" class="white">мобільний додаток</a> або вгадати випадкові слова <a href="https://kobzaapp.github.io/random" class="white">за оцим посиланням</a>.</p>
+      <p>спробуйте встановити <a href="https://kobzaapp2.github.io" class="white">мобільний додаток</a> або вгадати випадкові слова <a href="https://kobzaapp2.github.io/random" class="white">за оцим посиланням</a>.</p>
     </div>
   </div>
   </div>
@@ -1057,7 +1057,7 @@ Vue.component('toprow', {
   },
   template: `
   <div class="dt-row flex items-center justify-between pt2 ph4">
-    <a href="https://kobzaapp.github.io/">
+    <a href="https://kobzaapp2.github.io/">
       <div class="f5 fw1 white-70 fl">
         <img src="../resources/appicon.png" class="ba b--white-60 br2 h2" alt="" />
       </div>

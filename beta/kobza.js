@@ -434,7 +434,7 @@ Vue.component('field', {
         title = 'Ретро '+title
       }
       let text = ''
-      let url = 'kobzaapp.github.io/beta'
+      let url = 'kobzaapp2.github.io/beta'
       let blackSq = '\u2B1B' // ⬛
       let yellowSq = '\uD83D\uDFE8' //🟨
       let greenSq = '\uD83D\uDFE9' //🟩
@@ -939,7 +939,7 @@ Vue.component('toprow', {
   },
   template: `
   <div class="dt-row flex items-center justify-between pt2 ph4">
-    <a href="https://kobzaapp.github.io/">
+    <a href="https://kobzaapp2.github.io/">
       <div class="f5 fw1 white-70 fl">
         <img src="../resources/appicon.png" class="ba b--white-60 br2 h2" alt="" />
       </div>
